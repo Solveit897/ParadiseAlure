@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    font-family: "Comforter", cursive;
+    font-weight:bolder;
+}
+header{
+    background-color: #005f73;
+    padding: 15px 0;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li{
+    margin-right: 15px;
+    list-style-type: none;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 100vh;
+}
+header h2{
+    margin-left: 20px;
+}
+.hero{
+    background-image: url('https://i.imgur.com/oXrLmSl.jpg');
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+.hero-div{
+    padding: 20px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+.hero-button{
+    margin: 5px 90px;
+    position: center;
+    background-color: #ee6c4d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0px;
+    
+}
+.hero-div p{
+    margin: 7px ;
+}
+#services{
+    background-color: #fff;
+    text-align: left;
+   /* margin: 5px 0px;*/
+    padding: 20px;
+    
+}
+#services ul li{
+    list-style-type: none;
+}
+#services h2{
+    color: #007bff;
+   /* text-align: left;*/
+    margin-bottom: 15px;
+    
+}
+/*#services ul{
+    margin-left: 20px;
+    list-style-type: circle;
+}*/
+.service-button{
+    margin: 5px 60px;
+    background-color: #ee6c4d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0px;
+    margin-right: 50px;
+}
+#services li{
+    margin-bottom: 10px;
+}
+#about h2{
+    color: #28a745;
+    margin-bottom: 15px;
+}
+#about{
+    background-color: #f0f0f0;
+    padding: 20px; 
+}
+#about p{
+    margin: 10px 20px;
+}
+#contact{
+    padding: 20px;
+    
+}
+#contact h2{
+    margin-bottom: 15px;
+    color: #dc3545;
+}
+#contact p{
+    margin: 10px 20px;
+}
+.footer{
+    margin-bottom: 0;
+    background-color: #005f73;
+    color: white;
+}
+.footer p{
+    text-align: center;
+    padding: 20px 0;
+}
+@media screen and (max-width: 768px) {
+    #services, #about, #contact {
+        text-align: center;
+    }
+
+    #services ul {
+        list-style-type: none;
+        padding: 0;
+    }
+}
